@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PersonsCrud</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_person_list">PersonListActivity</string>
+    <string name="editar">Editar</string>
+    <string name="guardar">Guardar</string>
+    <string name="atras">Atras</string>
+    <string name="nombre">Ingrese su nombre completo</string>
+    <string name="telefono">Ingrese su número de teléfono</string>
+    <string name="title_activity_persona_form">MainActivity</string>
+
+</resources>

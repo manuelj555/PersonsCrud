@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/telefono" />
+
+    <EditText
+        android:id="@+id/txtPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/txtGuardar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guardar"
+            android:onClick="onClickGuardar" />
+
+        <Button
+            android:id="@+id/txtAtras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/atras"
+            android:onClick="onClickAtras" />
+
+    </LinearLayout>
+
+</LinearLayout>
